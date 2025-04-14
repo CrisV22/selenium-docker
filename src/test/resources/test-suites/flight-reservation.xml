@@ -1,9 +1,31 @@
-<suite>
-    <test name="passengers-count-1">
-        <parameter name="noOfPassengers" value="1" />
-        <parameter name="expectedPrice" value="$584 USD" />
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
+<suite name="flight-reservation">
+    <test name="Solo traveler">
+        <parameter name="testDataPath" value="test-data/flightreservation/solo-traveler.json" />
         <classes>
             <class name="com.vinsguru.tests.flightreservation.FlightReservationTest"/>
         </classes>
     </test>
+
+    <test name="Couple">
+        <parameter name="testDataPath" value="test-data/flightreservation/couple.json" />
+        <classes>
+            <class name="com.vinsguru.tests.flightreservation.FlightReservationTest"/>
+        </classes>
+    </test>
+
+    <test name="Couple with one kid">
+        <parameter name="testDataPath" value="test-data/flightreservation/couple-with-one-kid.json" />
+        <classes>
+            <class name="com.vinsguru.tests.flightreservation.FlightReservationTest"/>
+        </classes>
+    </test>
+
+    <test name="Friends group">
+        <parameter name="testDataPath" value="test-data/flightreservation/friends-group.json" />
+        <classes>
+            <class name="com.vinsguru.tests.flightreservation.FlightReservationTest"/>
+        </classes>
+    </test>
+
 </suite>

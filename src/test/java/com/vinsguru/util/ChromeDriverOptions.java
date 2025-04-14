@@ -1,4 +1,4 @@
-package com.vinsguru.utils;
+package com.vinsguru.util;
 
 import org.openqa.selenium.chrome.ChromeOptions;
 
