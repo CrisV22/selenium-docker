@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
+<suite name="vendor-portal">
+    <test name="Junior vendor">
+        <parameter name="testDataPath" value="test-data/vendorportal/junior-vendor.json" />
+        <classes>
+            <class name="com.vinsguru.tests.vendorportal.VendorPortalTest"/>
+        </classes>
+    </test>
+
+    <test name="Mid vendor">
+        <parameter name="testDataPath" value="test-data/vendorportal/mid-vendor.json" />
+        <classes>
+            <class name="com.vinsguru.tests.vendorportal.VendorPortalTest"/>
+        </classes>
+    </test>
+
+    <test name="Senior vendor">
+        <parameter name="testDataPath" value="test-data/vendorportal/senior-vendor.json" />
+        <classes>
+            <class name="com.vinsguru.tests.vendorportal.VendorPortalTest"/>
+        </classes>
+    </test>
+</suite>
