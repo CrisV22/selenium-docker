@@ -1,0 +1,8 @@
+SECURITY
+Json files with user credentials.
+
+CONFIG
+Improvement would be creating a JSON file to store constants, map to default.properties instead of using a class called CONSTANTS
+
+TESTNG REPORT
+Add a plugin for TestNG for graphics assistance or use Allure.
