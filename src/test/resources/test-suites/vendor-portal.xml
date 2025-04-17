@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
-<suite name="vendor-portal">
+<suite name="vendor-portal" parallel="tests" thread-count="3">
     <test name="Junior vendor">
         <parameter name="testDataPath" value="test-data/vendorportal/junior-vendor.json" />
         <classes>
