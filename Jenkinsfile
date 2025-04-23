@@ -16,8 +16,8 @@ pipeline {
 
         stage('Push image') {
             steps {
-            }
                 bat "docker push cristianvso/selenium"
+            }
         }
     }
 }
